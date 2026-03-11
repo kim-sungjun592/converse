@@ -7,21 +7,21 @@ export const collectionData = [
       title: '비타민 모공 수축 토너',
       name: 'Vita Berry Pore Toner',
       kname: '비타 베리 포어 토너 기획세트',
-      image: img('product_1.png')
+      image: img('image 44.png')
     },
     {
       id: 2,
       title: '비타민 모공 수축 토너',
       name: 'Vita Berry Pore Toner',
       kname: '비타 베리 포어 토너 기획세트',
-      image: img('product_2.png')
+      image: img('image33.png')
     },
     {
       id: 3,
       title: '비타민 모공 수축 토너',
       name: 'Vita Berry Pore Toner',
       kname: '비타 베리 포어 토너 기획세트',
-      image: img('product_3.png')
+      image: img('image22.png')
     },
     {
       id: 4,
