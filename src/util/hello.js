@@ -2,18 +2,19 @@ const img = (path) => `/img/${path}`;
 export const helloData = {
 
   media: {
-    type: "image",                     // "image" | "video"
-    src: img("tocobosun_final_s.gif"),   // public 폴더 기준
+    type: "image",                     
+    src: img("3.png"),   // 기존 파일명 대신 '3.png'로 변경
     alt: "Pink square demo image",
-    radius: 24                         // 이미지 둥근 모서리(px)
+    radius: 24                         
   },
 
-  eyebrow: "Hello❤️ We are TOCOBO!",
-  title: "Follow <br/> Your Intuition",
-  description:
-    "민감하고 섬세한 피부에 직관적인 처방을 제안합니다. <br/> 당신의 직감이 깨끗한 아름다움으로 이어지도록,<br/> 토코보의 진정성 있는 메시지로 응답할게요.",
-  cta: {
-    label: "MEET TOCOBO",
+  eyebrow: "Hello❤️ We are CONVERSE!",
+  title: "WE ARE <br/> CONVERSE",
+description: "컨버즈(Conbuzz)는 기존의 제지 제조 중심 사업 구조에서 <br/> 벗어나 ICT(정보통신기술) 및 통신장비 사업으로 <br/> 주력 사업을 전환하고 있는 코스피 상장 기업입니다",
+  
+
+cta: {
+    label: "MEET CONVERSE",
     href: "/about"
   }
 };

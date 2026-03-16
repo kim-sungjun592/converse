@@ -32,10 +32,11 @@ const Collection = () => {
 
       <div className="t-wrap">
         <h2 className="tit">
-          TOCOBO COLLECTION
+          Hello <br />
+          Best shop ever
         </h2>
         <p className="txt">
-          Shop By Category
+          Hello👋🏻  We are converse!
         </p>
       </div>
 

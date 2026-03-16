@@ -5,7 +5,7 @@ export const headerData = {
 
     logo: {
         src: img('logo.svg'),
-        alt: 'TOCOBO',
+        alt: 'converse',
         href: '/'
     },
     menus: [

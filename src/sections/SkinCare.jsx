@@ -8,14 +8,14 @@ const SkinCare = () => {
     <div className='inner skincare-inner'>
       <div className="t-wrap">
         <h2 className="tit">
-          Vegan Skincare
+          Step into style
         </h2>
         <p className="txt">
-          피부에 건강한 영향력을 전달하고 꼭 필요한 성분만을 담아 <br />
-          놀라운 변화를 선사하는 비건 스킨케어 브랜드 토코보
+          컨버즈(Conbuzz)는 기존의 제지 제조 중심 사업 구조에서 벗어나 <br />
+          ICT(정보통신기술) 및 통신장비 사업으로 주력 사업을 전환하고 있는 코스피 상장 기업입니다
         </p>
         <a href="#" className="btn">
-          meet tocobo
+          meet converse
         </a>
       </div>
       <div className="slider-wrap">
@@ -27,13 +27,14 @@ const SkinCare = () => {
           className="skincare-slider">
             {skincare.map((sl)=>(
 
-            <SwiperSlide 
-            style={{backgroundImage:`url(${sl.image})`}}
-            key={sl.id} >
-              <a href={sl.link}>
-              {sl.id}
-              </a>
-            </SwiperSlide>
+    <SwiperSlide 
+  style={{ backgroundImage: `url('/img/000.png')` }} // 여기서 직접 경로를 지정합니다.
+  key={sl.id} 
+>
+  <a href={sl.link}>
+    {sl.id}
+  </a>
+</SwiperSlide>
             ))}
 
           </Swiper>

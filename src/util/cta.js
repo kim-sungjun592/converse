@@ -3,66 +3,66 @@ export const categories = [
   {
     id: 61,
     slug: "make-up",
-    name: "메이크업",
+    name: "올스타하이",
     href: "/category/make-up/61/",
     img: {
-      src: img("cate-1.png"),
-      alt: "메이크업",
+      src: img("2.png"),
+      alt: "올스타하이",
     },
   },
   {
     id: 42,
     slug: "sun",
-    name: "선케어",
+    name: "척 70 하이",
     href: "/category/sun/42/",
     img: {
-      src: img("cate-2.png"),
+      src: img("202.png"),
 
-      alt: "선케어",
+      alt: "척 70 하이",
     },
   },
   {
     id: 52,
     slug: "lip",
-    name: "립케어",
+    name: "올스타 로우",
     href: "/category/lip/52/",
     img: {
-      src: img("cate-3.png"),
+      src: img("222.png"),
 
-      alt: "립케어",
+      alt: "올스타 로우",
     },
   },
   {
     id: 50,
     slug: "skincare",
-    name: "스킨케어",
+    name: "원스타 클래식",
     href: "/category/skincare/50/",
     img: {
-      src: img("cate-4.png"),
+      src: img("2222.png"),
 
-      alt: "스킨케어",
+      alt: "원스타 클래식",
     },
   },
   {
     id: 47,
     slug: "cleansing",
-    name: "클렌징",
+    name: "원스타 플랫폼",
     href: "/category/cleansing/47/",
     img: {
-      src: img("cate-5.png"),
+      src: img("22222.png"),
 
-      alt: "클렌징",
+      alt: "원스타 플랫폼",
     },
   },
   {
     id: 28,
     slug: "setetc",
-    name: "세트/기타",
+    name: "원스타 레트로",
     href: "/category/setetc/28/",
     img: {
-      src: img("cate-6.png"),
+      src: img("222222.png"),
 
-      alt: "세트/기타",
+      alt: "원스타 레트로",
     },
   },
 ];
