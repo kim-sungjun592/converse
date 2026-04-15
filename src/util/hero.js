@@ -47,20 +47,20 @@ export const heroSlides = [
     alt: "민감 피부 라인 배너",
     active: true,
     order: 3,
-  },
-  {
-    id: "hs-4",
-    title: "Eco-Conscious Beauty",
-    subtitle: "Vegan & Cruelty-Free",
-    desc: "지속 가능성을 생각한 깔끔한 선택",
-    ctaText: "혜택보러가기",
-    ctaHref: "/about",
-    image: {
-      desktop:  img("1111.png"),
-      mobile: img("main_mo_4.jpg"),
-    },
-    alt: "브랜드 철학 배너",
-    active: true,
-    order: 4,
-  },
+  }
+  // {
+  //   id: "hs-4",
+  //   title: "Eco-Conscious Beauty",
+  //   subtitle: "Vegan & Cruelty-Free",
+  //   desc: "지속 가능성을 생각한 깔끔한 선택",
+  //   ctaText: "혜택보러가기",
+  //   ctaHref: "/about",
+  //   image: {
+  //     desktop:  img("1111.png"),
+  //     mobile: img("main_mo_4.jpg"),
+  //   },
+  //   alt: "브랜드 철학 배너",
+  //   active: true,
+  //   order: 4,
+  // },
 ];

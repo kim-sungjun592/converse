@@ -5,11 +5,10 @@
 
     &#hero {
         padding: 0;
-        margin-top: 4rem;
+        margin-top: 14rem;
         transition: margin-top .3s;
     }
     &#collection{
-        background-color: var(--bg2);
         padding: 10rem 0;
     }
     &#skincare{
@@ -30,8 +29,12 @@
     }
 
     h2.tit {
-        font-size: 7.3rem;
-        font-weight: 200;
+      font-size: 55px;
+      font-weight: 700;
+      margin-bottom: 5px;
+      color:var(--primary);
+      line-height: 1.1;
+
     }
 
     p.txt {
@@ -50,7 +53,6 @@
         align-content: center;
         color: var(--bg);
         background-color: var(--primary);
-        border-radius: 6rem;
         position: relative;
         border: .1rem solid transparent;
         transition: all .8s;
@@ -61,7 +63,6 @@
 
         &::after {
             content: "";
-            border-radius: 6rem;
             display: block;
             position: absolute;
             width: 100%;
@@ -125,14 +126,14 @@ footer {
         }
 
         #hero {
-            margin-top: 0;
+            margin-top: 10rem;
         }
     }
 
     &.scrolled {
         header {
-            background: #ffffff;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 0) 100%);
+            // background: #ffffff;
+            // background: linear-gradient(180deg, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 0) 100%);
         }
     }
 
