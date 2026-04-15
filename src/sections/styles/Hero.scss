@@ -21,38 +21,38 @@
                 font-size: 2.1rem;
                 margin-top: 4rem;
             }
+            h2.tit {
+                color: var(--bg)
+            }
+            
+            p.txt {
+                color: var(--bg)
+            }
         }
 
         &.hs-1 {
-            h2.tit {
-                color: var(--main-slider01-tit)
-            }
-
-            p.txt {
-                color: var(--main-slider01-sub)
-            }
 
             a.btn {
-                background: var(--p-gradient);
+                // background: var(--p-gradient);
             }
         }
 
         &.hs-2 {
-            h2.tit {
-                color: var(--main-slider02-tit)
-            }
+            // h2.tit {
+            //     color: var(--main-slider02-tit)
+            // }
 
-            p.txt {
-                color: var(--main-slider02-sub)
-            }
+            // p.txt {
+            //     color: var(--main-slider02-sub)
+            // }
 
-            a.btn {
-                background: var(--s-gradient);
+            // a.btn {
+            //     background: var(--s-gradient);
 
-                &:hover {
-                    color: var(--main-slider02-tit)
-                }
-            }
+            //     &:hover {
+            //         color: var(--main-slider02-tit)
+            //     }
+            // }
         }
 
         &.hs-3 {
@@ -60,32 +60,32 @@
                 text-align: center;
                 justify-content: center;
 
-                h2.tit {
-                    color: var(--main-slider03-tit)
-                }
+                // h2.tit {
+                //     color: var(--main-slider03-tit)
+                // }
 
-                p.txt {
-                    color: var(--main-slider03-sub)
-                }
+                // p.txt {
+                //     color: var(--main-slider03-sub)
+                // }
 
-                a.btn {
-                    background: var(--t-gradient);
+                // a.btn {
+                //     background: var(--t-gradient);
 
-                    &:hover {
-                        color: var(--main-slider03-tit)
-                    }
-                }
+                //     &:hover {
+                //         color: var(--main-slider03-tit)
+                //     }
+                // }
             }
         }
 
         &.hs-4 {
-            h2.tit {
-                color: var(--main-slider04-tit)
-            }
+            // h2.tit {
+            //     color: var(--main-slider04-tit)
+            // }
 
-            p.txt {
-                color: var(--main-slider04-sub)
-            }
+            // p.txt {
+            //     color: var(--main-slider04-sub)
+            // }
         }
     }
 

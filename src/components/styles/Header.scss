@@ -5,6 +5,7 @@ header{
     z-index: 5;
     height: 10.5rem;
     transition: all .3s;
+    background-color: var(--header-bg);
 
     .inner {
         max-width: 160rem;
@@ -19,7 +20,7 @@ header{
                 display: block;
                 font-size: 1.8rem;
                 text-transform: capitalize;
-                color:var(--primary);
+                color:var(--bg);
                 padding: 0 .5rem;
                 position: relative;
                 &::after{
